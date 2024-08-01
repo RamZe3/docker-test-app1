@@ -35,7 +35,6 @@ services:
             POSTGRES_DB: gnuplot_db
         volumes:
             - ./postgres_data:/var/lib/postgresql/data/
-            - ./postgres:/app
         ports:
             - "5432:5432"
 
