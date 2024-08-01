@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "test1",
+      "password": "test2"
+    },
+    {
+      "id": 2,
+      "login": "testasd2",
+      "password": "testasd"
+    },
+    {
+      "id": 3,
+      "login": "testzxc3",
+      "password": "testzxc"
+    },
+    {
+      "id": 4,
+      "login": "apiTest",
+      "password": "qwe"
+    },
+    {
+      "id": "5332831b-b008-4cf0-99dd-30dd0c45f321",
+      "login": "ahahah",
+      "password": "123"
+    },
+    {
+      "id": "01da2c6e-f08f-41cd-ac3a-bc4682e6eff3",
+      "login": "ghjhg",
+      "password": "hjhjhghjg"
+    },
+    {
+      "id": "14ce137b-33ea-43fa-8de3-bee1d7741a32",
+      "login": "13212213",
+      "password": "123456",
+      "email": "ramilfitkulin@icloud.com"
+    },
+    {
+      "id": "9c40493d-22ee-48f0-97b6-2f38625e0814",
+      "login": "123123",
+      "password": "123123",
+      "email": "ramilfitkulin@icloud.zom"
+    },
+    {
+      "id": "e51eb0f8-26d7-4b26-aab9-9cd8774f0801",
+      "login": "ramilimar",
+      "password": {},
+      "email": "qea@mail.com"
+    },
+    {
+      "id": "2918f184-907b-477b-b4a0-9a6bd319d60b",
+      "login": "asddsasda",
+      "password": {},
+      "email": "123@test.com"
+    },
+    {
+      "id": "175c7553-312c-44e8-8f58-967f0e4a33b7",
+      "login": "API_URAPI_URL + USERS_API_URLL + USERS_API_URL",
+      "password": {},
+      "email": "ewqeqwqwewe@MAILC.COM"
+    },
+    {
+      "id": "9ecd0920-a402-493b-8a8c-8e9aced72c86",
+      "login": "asddadas",
+      "password": {},
+      "email": "dsdsad@mail.com"
+    },
+    {
+      "id": "c35eea6f-98cf-4e7a-b98d-5f7f4508159c",
+      "login": "aasddsadas",
+      "password": {},
+      "email": "dsdsad@mail.coasd"
+    },
+    {
+      "id": "d0e957df-c67f-4225-8147-1c397a54e1db",
+      "login": "testJs@mail.com",
+      "password": {},
+      "email": "testJs@mail.com"
+    },
+    {
+      "id": "1ea00af6-6ad7-44e2-955e-fdd964ac5af5",
+      "login": "te1stJs@mail.com",
+      "password": "[object Promise]",
+      "email": "te1stJs@mail.com"
+    },
+    {
+      "id": "d32693b1-3ab2-4355-8cba-6419f3b92688",
+      "login": "testJs@mail.com123",
+      "password": "[object Promise]",
+      "email": "test123Js@mail.com"
+    },
+    {
+      "id": "17b2d0d5-4b23-48bb-b0ac-7f693fe55747",
+      "login": "testJs@mail.comqweqe",
+      "password": {
+        "words": [
+          410476191,
+          1497380654,
+          -2079162712,
+          -629745451
+        ],
+        "sigBytes": 16
+      },
+      "email": "testdsadsdsJs@mail.com"
+    },
+    {
+      "id": "44610d92-0108-400e-9d0c-1aff50c9a860",
+      "login": "dsadsadsa@mail.com",
+      "password": "f3ae89575aad11e72e6a92441ba0a132",
+      "email": "dsadsadsa@mail.com"
+    },
+    {
+      "id": "686d2343-ee77-4066-b5ee-c3ded9883883",
+      "login": "iop@mail.cok",
+      "password": "5ce2e658ce691c1a00b94e9b5a063583",
+      "email": "iop@mail.cok"
+    },
+    {
+      "id": "a82110eb-88cd-4006-8b1d-dafb8e6dc2bb",
+      "login": "crag@mail.com",
+      "password": "3aa43b51a122f1043d24ddd3dcca59d9",
+      "email": "crag@mail.com"
+    },
+    {
+      "id": "77241b52-fb83-4ed0-83c5-ab432fbb9a53",
+      "login": "dsadsadsadsaa",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "email": "ramilfitkulin@icloud.com"
+    },
+    {
+      "id": "0fdd2eaf-3f3c-49e3-ac21-583a1c5d80fd",
+      "login": "asdasd",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "email": "ramilfitkulin@gmail.com"
+    },
+    {
+      "id": "c4338058-fc38-4337-8a44-c230099e61f6",
+      "login": "motoke2934@liepaia.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "email": "ramilfitkulin@icloud.com"
+    },
+    {
+      "id": "48700760-6e1d-46d0-b198-19f0cbe6f840",
+      "login": "moto1ke2934@liepaia.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "email": "ramilfitkulin1@gmail.com"
+    },
+    {
+      "id": "11debc12-7c4b-4b53-9d8e-d9061bae5b43",
+      "login": "12motoke2934@liepaia.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "email": "ramilfitkulin@gmail.com"
+    }
+  ],
+  "templates": [
+    {
+      "id": "aaa",
+      "name": "Test template",
+      "userId": "5332831b-b008-4cf0-99dd-30dd0c45f321",
+      "function": "test",
+      "Range1": "1",
+      "Range2": "2",
+      "Point": "point",
+      "Code": "print asd"
+    },
+    {
+      "id": "222",
+      "name": "Test template",
+      "userId": "5332831b-b008-4cf0-99dd-30dd0c45f321",
+      "function": "test",
+      "Range1": "1",
+      "Range2": "2",
+      "Point": "point",
+      "Code": "print asd"
+    },
+    {
+      "id": "333",
+      "name": "Test template",
+      "userId": "5332831b-b008-4cf0-99dd-30dd0c45f321",
+      "function": "test",
+      "Range1": "1",
+      "Range2": "2",
+      "Point": "point",
+      "Code": "print asd"
+    }
+  ]
+}
