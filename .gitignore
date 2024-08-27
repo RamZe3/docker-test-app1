@@ -1,1 +1,5 @@
 node_modules
+postgres_data
+certbot
+/api/plot
+!/api/example.png

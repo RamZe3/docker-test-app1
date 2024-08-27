@@ -1,0 +1,19 @@
+FROM ubuntu:latest
+
+WORKDIR /app
+
+# Обновление пакетов и установка необходимых утилит
+RUN apt-get update && apt-get install -y \
+    gnuplot \
+    curl \
+    gnupg
+
+# Установка Node.js 16
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .

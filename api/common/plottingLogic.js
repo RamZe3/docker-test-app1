@@ -85,7 +85,7 @@ async function gnuplotting(template){
 
         console.log(template.grid + "grid")
 
-        return "http://localhost:8080/plot/" + now + '.png'
+        return "http://realworld-docker.com/plot/" + now + '.png'
     }
 
     let now = moment().format('YYYY_MM_DD_hh_mm_ss');
@@ -135,12 +135,12 @@ async function gnuplotting(template){
         .set('ztics  \'' + template.z_tics + '\'')
         //.set('ztics  \'' + template.z_tics + '\'')
         //.set("zeroaxis")
-        .set((template.grid) ? "grid" : "")
-        .unset((template.grid !== 'true') ? "grid" : "")
-        .set((template.zeroaxis) ? "zeroaxis" : "")
-        .unset((template.zeroaxis !== 'true') ? "zeroaxis" : "")
-        .set((template.border) ? "border" : "")
-        .unset((template.border !== 'true') ? "border" : "")
+        .set((template.grid) ? "grid" : "grid\nunset grid")
+        .unset((template.grid !== 'true') ? "grid" : "border")
+        .set((template.zeroaxis) ? "zeroaxis" : "zeroaxis\nunset zeroaxis")
+        .unset((template.zeroaxis !== 'true') ? "zeroaxis" : "border")
+        .set((template.border) ? "border" : "border\nunset border")
+        .unset((template.border !== 'true') ? "border" : "border\nset border")
 
         //.set('palette defined ( 0 \"blue\", 1 \"red\" )')
         //.show('style line')
@@ -180,7 +180,7 @@ async function gnuplotting(template){
 
     //return path1.replaceAll('\\', "/")
     //TODO
-    return "http://localhost:8080/plot/" + now + '.png'
+    return "http://realworld-docker.com/plot/" + now + '.png'
 }
 
 module.exports = gnuplotting
