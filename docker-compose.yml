@@ -58,6 +58,8 @@ services:
             - "443:443"
         volumes:
             - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+            - ./nginx/certs/cert.pem:/etc/ssl/certs/cert.crt
+            - ./nginx/certs/privkey.key:/etc/ssl/private/privkey.key
         depends_on:
             - frontend
             - postgres
